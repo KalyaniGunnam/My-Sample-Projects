@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.button-hovereffects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    border: none;
+    background-color: white;
+    transition: 0.4s ease-in;
+}
+
+button::before,
+button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+.btn1:hover{
+    box-shadow: inset 10.5rem 0 0 0 #ff96ad, inset -10.5rem 0 0 0 #ff96ad;
+}
+
+.btn2:hover{
+    background-color: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+.btn3:hover{
+    box-shadow: 10px 10px 0px #ff96ad;
+    top: -5px;
+    left: -5px;
+}
+
+.btn4:hover{
+    border: 2px solid #ff96ad;
+    color: #ff96ad;
+    background-color: black;
+}
+   
+
+

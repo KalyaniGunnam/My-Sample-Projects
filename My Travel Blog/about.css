@@ -1,0 +1,85 @@
+body{
+    font-size: 20px;
+    color: black;
+}
+
+header{
+    position: static;
+}
+
+main{
+    padding: 15px 60px;
+    background-color: rgba(51, 47, 47, 0.8);;
+}
+
+main .aboutpage .aboutme-container{
+    display: flex;
+}
+
+main .aboutpage .aboutme-container .left-content{
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 15%);
+    margin-right: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+main .aboutpage .aboutme-container .left-content .image-content{
+    background-color: #ebf1f7;
+    padding: 20px;
+}
+
+main .aboutpage .aboutme-container .left-content .image-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main .aboutpage .aboutme-container .left-content .about-content{
+    background-color: white;
+    padding: 20px;
+}
+
+
+main .aboutpage .aboutme-container .left-content .about-content hr,
+main .aboutpage .aboutme-container .right-content hr{
+    width: 75%;
+    text-align: center;
+    color: grey;
+}
+
+
+main .aboutpage .aboutme-container .left-content .about-content h5{
+    font-size: 30px;
+    margin: 10px;
+}
+
+main .aboutpage .aboutme-container .left-content .about-content ul li{
+    margin-bottom: 10px;
+}
+
+main .aboutpage .aboutme-container .left-content .about-content ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+main .aboutpage .aboutme-container .left-content .about-content ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(52 111 199);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+main .aboutpage .aboutme-container .right-content{
+    flex: 4;
+}
+
+main .aboutpage .aboutme-container .right-content ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+main .aboutpage .aboutme-container .right-content ul li{
+    margin-bottom: 20px;
+}
