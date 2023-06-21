@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(86, 86, 197);
+}
+
+#toggle-button,.menu a{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.menu a{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgb(86, 86, 197);
+    top: 30px;
+    left: 30px;
+    transition: 0.5s;
+}
+
+#toggle-button{
+    background-color:  rgb(43, 43, 112);
+    color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    top: 15px;
+    left: 15px;  
+}
+
+.active{
+    transform: rotate(45deg);
+}
+
+

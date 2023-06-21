@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+    <div class="card">
+        <div class="outside">
+            <div class="front">
+                <p>Happy Birthday <br/> Nanda</p>
+                <div class="cake">
+                    <div class="top-layer"></div>
+                    <div class="middle-layer"></div>
+                    <div class="bottom-layer"></div>
+                    <div class="candle"></div>
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+        <div id="page-content">
+            <div class="inside">
+                <p>On your birthday, I thought of giving you the cutest gift in the world. But then I realized that is not possible because you yourself are the cutest gift in the world.<br/>Happy Birthday..!</p>
+                <img src="images.jpg" alt="giftbox" onclick = "openGift()">
+                <div class="letter" id="letter">
+                    <p>
+                        On your birthday, I want you to know how much you mean to me. You are my sunshine, and your smile brightens up even the darkest of days. You have brought so much love and joy into my life, and I am grateful to have you as my son.
+                        As you celebrate another year of life, I hope you know how proud I am of the person you are becoming. You are intelligent, kind, and so much more, and I am excited to watch you grow and succeed.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        function openGift() {
+            var letter = document.getElementById("letter");
+            letter.style.display = "block";
+            
+            var insideContent = document.querySelector('.inside');
+            insideContent.innerHTML = letter.innerHTML;
+        }
+    </script>
+</body>
+</html>
