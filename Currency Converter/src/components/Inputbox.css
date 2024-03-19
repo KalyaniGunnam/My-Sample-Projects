@@ -1,0 +1,53 @@
+.inputboxContainer{
+  background-color: rgb(247, 245, 245);
+  color: #788e81;
+  border: 1px solid rgb(247, 245, 245);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.inputContent,
+.optionContent {
+  flex: 1;
+}
+
+.inputContent{
+  margin-right: 0.5rem;
+}
+
+.inputContent label,
+.optionContent p {
+  display: block;
+  margin-bottom: 5px;
+} 
+
+input,select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #becfce;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select {
+  background-color: #becfce;
+  outline: none;
+}
+
+input{
+  outline: none;
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+
