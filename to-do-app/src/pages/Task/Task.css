@@ -1,0 +1,39 @@
+.task-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-photo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px double #e6b400;
+}
+
+.user-info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info-text h3{
+    font-weight: bold;
+    margin: 0.1rem 0;
+}
+
+.user-info-text h4{
+    font-weight: normal;
+    margin: 0.1rem 0;
+}
+
+

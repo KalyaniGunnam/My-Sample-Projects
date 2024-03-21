@@ -1,0 +1,69 @@
+.task-list {
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 18rem; 
+    padding: 1rem 1.5rem;
+    color: #483f37;
+}
+
+.tasklist-heading {
+    margin:1rem 0;
+    text-align: center;
+}
+
+.tasklist-input {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.tasklist-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #483f37;
+    border-radius: 0.5rem;
+    margin-right: 0.75rem;
+}
+
+.tasklist-input input:focus {
+    outline: none;
+}
+
+
+.task-item-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-items {
+    display: flex;
+    align-items: center;
+}
+
+.task-items input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+.task-items input[type="text"]{
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.task-action {
+    margin-left: 1rem;
+}
+
+.task-action svg, .fa-plus, .fa-check {
+    cursor: pointer;
+    color: #e6b400;
+}
+
+.task-action svg:hover {
+    color:  #e6cc00;
+}
+
+.fa-pen{
+    margin: 0 1rem;
+}

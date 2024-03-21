@@ -1,0 +1,65 @@
+.page-outline{
+    background-color: #4a9dc1;
+    border: 1px solid #4a9dc1;
+    border-radius: 2rem;
+    color: rgb(246, 248, 244);
+    width: 20rem;
+    height: 100%;
+    padding: 2rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-image img{
+    width: 100%;
+    border-top-left-radius: 35% 80%;
+    border-top-right-radius: 40% 50%;
+    border-bottom-right-radius: 90% 70%;
+    border-bottom-left-radius: 40% 50%;
+}
+
+button{
+    background-color: #e6b400;
+    border: 1px solid #e6b400;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1rem 0rem;
+    letter-spacing: 0.05rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover{
+    background-color: #e6cc00;
+    border: 1px solid #e6cc00;
+}
+
+.auth-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    border: 1px solid #f6f6f6;
+    border-radius: 5rem;
+}
+
+a{
+    color: #483f37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

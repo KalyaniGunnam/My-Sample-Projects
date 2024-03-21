@@ -1,0 +1,5 @@
+.forgort-password{
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: space-between;
+}
